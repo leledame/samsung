@@ -12,6 +12,8 @@ public class Jumper {
     public static void main(String[] args) {
         Jumper jumper = new Jumper();
         jumper.height = 0;
+        jumper.bigJump();
+        System.out.println(jumper.height);
 
     }
 }
