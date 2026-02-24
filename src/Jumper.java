@@ -9,6 +9,10 @@ public class Jumper {
         height += 100;
     }
 
+    public double sqr(double x) {
+        return x * x;
+    }
+
     public static void main(String[] args) {
         Jumper jumper = new Jumper();
         jumper.height = 0;
